@@ -1,0 +1,22 @@
+# Ignore typical virtual environment directories
+venv/
+.env/
+.venv/
+env/
+
+# Ignore environment variable files
+*.env
+
+# Optionally ignore Python cache files and distribution artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Ignore the Html folder inside the Data folder
+Data/Html/
+Data/Impact Markdown/
+Data/JSON/
+Data/Markdown/
+
